@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerCraft: AI Resume Analyzer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">CareerCraft</a>
+            </div>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+                <a href="login.html" class="btn btn-primary">Login</a>
+                <a href="signup.html" class="btn btn-secondary">Sign Up</a>
+            </nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Unlock Your Career Potential with AI</h1>
+                    <p>CareerCraft analyzes your resume, provides intelligent suggestions, and recommends personalized career paths to help you stand out.</p>
+                    <a href="signup.html" class="btn btn-cta">Get Started Free</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Why Choose CareerCraft?</h2>
+                <div class="feature-grid">
+                    <div class="feature-card glassmorphism">
+                        <i class="fas fa-robot icon"></i>
+                        <h3>AI-Powered Analysis</h3>
+                        <p>Leverage advanced AI and NLP to get deep insights into your resume's strengths and weaknesses.</p>
+                    </div>
+                    <div class="feature-card glassmorphism">
+                        <i class="fas fa-lightbulb icon"></i>
+                        <h3>Smart Suggestions</h3>
+                        <p>Receive actionable, personalized tips to optimize your resume for industry standards and ATS.</p>
+                    </div>
+                    <div class="feature-card glassmorphism">
+                        <i class="fas fa-chart-line icon"></i>
+                        <h3>Career Recommendations</h3>
+                        <p>Discover suitable job roles and career paths tailored to your skills and experience.</p>
+                    </div>
+                    <div class="feature-card glassmorphism">
+                        <i class="fas fa-file-alt icon"></i>
+                        <h3>Comprehensive Reports</h3>
+                        <p>Get detailed, downloadable reports highlighting your resume's performance and areas for improvement.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About CareerCraft</h2>
+                <p>CareerCraft was developed to empower job seekers in today's competitive market. We believe that everyone deserves the tools to present their best self to potential employers. Our platform combines cutting-edge AI with user-friendly design to make resume optimization and career guidance accessible to all.</p>
+                <p>Our mission is to bridge the gap between talent and opportunity, helping individuals craft resumes that truly reflect their potential and align with their career aspirations.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p>Have questions or feedback? We'd love to hear from you!</p>
+                <form class="contact-form glassmorphism">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-cta">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>CareerCraft</h3>
+                    <p>Your AI-powered partner for resume optimization and career guidance.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section social">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 CareerCraft. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
