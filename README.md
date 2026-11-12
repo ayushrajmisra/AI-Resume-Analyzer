@@ -57,13 +57,14 @@ Career Craft was developed as an academic major project during my BCA journey at
 ## About the Developer
 
 **Ayush Misra**  
-Founder & Director, Kartsho Solutions Private Limited | Product Builder | Developer
+BCA Graduate | Tula's Institute, Dehradun
 
-- Portfolio: https://ayushmisra.kartsho.com
+This project was developed as part of my academic journey, reflecting my interest in technology, web development and AI-driven career solutions.
+
 - GitHub: https://github.com/ayushrajmisra
 - LinkedIn: https://www.linkedin.com/in/misraayush
-- Email: ayush@kartsho.com
+- Portfolio: https://ayushmisra.kartsho.com
 
----
+*An academic project built with curiosity and a passion for learning.*
 
 *Building digital products. Leading teams. Creating real-world impact.*
