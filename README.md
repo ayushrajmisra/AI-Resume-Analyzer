@@ -1,24 +1,69 @@
-# 🚀 Career Craft – AI Resume Analyzer
+# Career Craft — AI Resume Analyzer
 
-**Career Craft** ek intelligent platform hai jo job seekers ko unke resume optimize karne aur career growth mein madad karta hai. Ye project "Keyword Matching" aur "Skill Gap Analysis" ke concept par based hai.
+**An AI-powered career assistance concept focused on resume improvement, job readiness and skill-gap insights.**
 
-## 📋 Project Overview
-Bohot saare students ko ye nahi pata hota ki unke resume mein kya kami hai. Career Craft resume ko analyze karke user ko batata hai ki wo industry standards (ATS) ke hisaab se kahan stand karte hain aur unhe kya seekhne ki zarurat hai.
+Career Craft is an academic project designed to explore how technology and AI-based concepts can help students and job seekers improve their resumes and make more informed career decisions.
 
-## ✨ Key Features
-- **Keyword Matcher:** Resume ke words ko job requirements se match karna.
-- **Skill Gap Analysis:** User ko batana ki unhe kaunse specific skills (like Python, React, or MySQL) seekhne chahiye.
-- **Career Roadmap:** AI-based suggestions dena ki job lagne ke liye agla kadam kya hona chahiye.
-- **Real-time Insights:** Hiring trends ke basis par resume ko improve karne ki tips dena.
+The project focuses on connecting resume information with job requirements through keyword matching, skill-gap analysis and career guidance concepts.
 
-## 🛠️ Tech Stack & Concepts
-- **Frontend:** HTML5, CSS3, JavaScript.
-- **Research & Logic:** NLP (Natural Language Processing) aur Keyword Extraction algorithms ka use plan kiya gaya hai.
-- **Tools:** VS Code, Git, GitHub.
+## Project Overview
 
-## 📂 Project Documentation
-Maine is project ki ek detailed **Major Project Report** bhi taiyar ki hai jo repository mein available hai. Isme system architecture aur research references (like spaCy, Flask, and OpenAI) ki poori jankari hai.
+Many students and job seekers struggle to understand whether their resumes align with industry expectations. Career Craft explores a solution to this challenge by focusing on resume analysis, relevant skill identification and career improvement recommendations.
+
+## Key Concepts
+
+- **Keyword Matching:** Comparing resume keywords with job requirements.
+- **Skill Gap Analysis:** Identifying skills that may need improvement based on target roles.
+- **Career Roadmap:** Exploring guidance for future learning and career development.
+- **Resume Improvement:** Providing ideas for making resumes more relevant to job opportunities.
+
+*These are the project's intended concepts and objectives; individual capabilities depend on the current implementation.*
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Web page structure |
+| CSS3 | Styling and layout |
+| JavaScript | Frontend interactions |
+| Python | Application-side development |
+
+## Repository Structure
+
+```text
+AI-Resume-Analyzer/
+├── app.py
+├── index.html
+├── login.html
+├── signup.html
+├── script.js
+├── style.css
+├── Career_Craft_Project_Report.pdf
+└── README.md
+```
+
+## Project Documentation
+
+A detailed academic project report is included in this repository:
+
+**`Career_Craft_Project_Report.pdf`**
+
+It documents the project background, research, proposed system and relevant technical concepts.
+
+## Project Background
+
+Career Craft was developed as an academic major project during my BCA journey at Tula's Institute, Dehradun.
+
+## About the Developer
+
+**Ayush Misra**  
+Founder & Director, Kartsho Solutions Private Limited | Product Builder | Developer
+
+- Portfolio: https://ayushmisra.kartsho.com
+- GitHub: https://github.com/ayushrajmisra
+- LinkedIn: https://www.linkedin.com/in/misraayush
+- Email: ayush@kartsho.com
 
 ---
-**Developed by:** Ayush Misra  
-**BCA Graduate | Tula’s Institute, Dehradun**
+
+*Building digital products. Leading teams. Creating real-world impact.*
